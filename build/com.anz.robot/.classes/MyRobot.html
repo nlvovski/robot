@@ -1,0 +1,252 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: MyRobot</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.anz.robot</a> ]
+</div>
+
+<h1>Coverage Summary for Class: MyRobot (com.anz.robot)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">MyRobot</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 11)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 56)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">MyRobot$$EnhancerByMockitoWithCGLIB$$72cf5aac</td>
+  </tr>
+  <tr>
+    <td class="name">MyRobot$1</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 1)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">MyRobot$Face</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 1)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 13)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 58)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.anz.robot;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;public class MyRobot {
+<i>4</i>&nbsp;    private static final int MIN_X = 0;
+<i>5</i>&nbsp;    private static final int MAX_X = 4;
+<i>6</i>&nbsp;    private static final int MIN_Y = 0;
+<i>7</i>&nbsp;    private static final int MAX_Y = 4;
+<i>8</i>&nbsp;
+<i>9</i>&nbsp;    private Boolean isPlaced;
+<i>10</i>&nbsp;    private Integer x;
+<i>11</i>&nbsp;    private Integer y;
+<i>12</i>&nbsp;    private Face face;
+<i>13</i>&nbsp;
+<i>14</i>&nbsp;    public Integer getX() {
+<b class="nc"><i>15</i>&nbsp;        return x;</b>
+<i>16</i>&nbsp;    }
+<i>17</i>&nbsp;
+<i>18</i>&nbsp;    public Integer getY() {
+<b class="nc"><i>19</i>&nbsp;        return y;</b>
+<i>20</i>&nbsp;    }
+<i>21</i>&nbsp;
+<i>22</i>&nbsp;    public Face getFace() {
+<b class="nc"><i>23</i>&nbsp;        return face;</b>
+<i>24</i>&nbsp;    }
+<i>25</i>&nbsp;
+<b class="nc"><i>26</i>&nbsp;    public enum Face {NORTH, SOUTH, EAST, WEST}</b>
+<i>27</i>&nbsp;
+<b class="nc"><i>28</i>&nbsp;    public MyRobot() {</b>
+<b class="nc"><i>29</i>&nbsp;        isPlaced = false;</b>
+<b class="nc"><i>30</i>&nbsp;    }</b>
+<i>31</i>&nbsp;
+<i>32</i>&nbsp;    public boolean isOnTheTable() {
+<b class="nc"><i>33</i>&nbsp;        return (x !=null &amp;&amp; y != null &amp;&amp; face != null) &amp;&amp; (x &gt;= MIN_X &amp;&amp; x &lt;= MAX_X &amp;&amp; y &gt;= MIN_Y &amp;&amp; y &gt;= MAX_Y);</b>
+<i>34</i>&nbsp;    }
+<i>35</i>&nbsp;
+<i>36</i>&nbsp;    public String report() throws RobotNotPlacedException {
+<b class="nc"><i>37</i>&nbsp;        assertIsPlaced();</b>
+<b class="nc"><i>38</i>&nbsp;        return String.format(&quot;Output: &quot;+&quot;%s,%s,%s&quot;, x, y, face.toString());</b>
+<i>39</i>&nbsp;    }
+<i>40</i>&nbsp;
+<i>41</i>&nbsp;    private void assertIsPlaced() throws RobotNotPlacedException {
+<b class="nc"><i>42</i>&nbsp;        if (!isPlaced) {</b>
+<b class="nc"><i>43</i>&nbsp;            throw new RobotNotPlacedException(&quot;First command must be PLACE&quot;);</b>
+<i>44</i>&nbsp;        }
+<b class="nc"><i>45</i>&nbsp;    }</b>
+<i>46</i>&nbsp;
+<i>47</i>&nbsp;    public void place(int x, int y, Face face) throws RobotOutOfBoundariesException {
+<b class="nc"><i>48</i>&nbsp;        if (x &lt; MIN_X || x &gt; MAX_X || y &lt; MIN_Y || y &gt; MAX_Y) {</b>
+<b class="nc"><i>49</i>&nbsp;            throw new RobotOutOfBoundariesException(&quot;Robot must not fall of the table&quot;);</b>
+<i>50</i>&nbsp;        }
+<b class="nc"><i>51</i>&nbsp;        this.x = x;</b>
+<b class="nc"><i>52</i>&nbsp;        this.y = y;</b>
+<b class="nc"><i>53</i>&nbsp;        this.face = face;</b>
+<b class="nc"><i>54</i>&nbsp;        this.isPlaced = true;</b>
+<b class="nc"><i>55</i>&nbsp;    }</b>
+<i>56</i>&nbsp;
+<i>57</i>&nbsp;    public void move() throws RobotOutOfBoundariesException, RobotNotPlacedException {
+<b class="nc"><i>58</i>&nbsp;        assertIsPlaced();</b>
+<i>59</i>&nbsp;
+<b class="nc"><i>60</i>&nbsp;        int newX = -1;</b>
+<b class="nc"><i>61</i>&nbsp;        int newY = -1;</b>
+<i>62</i>&nbsp;
+<b class="nc"><i>63</i>&nbsp;        switch (face) {</b>
+<i>64</i>&nbsp;            case NORTH:
+<b class="nc"><i>65</i>&nbsp;                newX = x;</b>
+<b class="nc"><i>66</i>&nbsp;                newY = y + 1;</b>
+<b class="nc"><i>67</i>&nbsp;                break;</b>
+<i>68</i>&nbsp;            case SOUTH:
+<b class="nc"><i>69</i>&nbsp;                newX = x;</b>
+<b class="nc"><i>70</i>&nbsp;                newY = y - 1;</b>
+<b class="nc"><i>71</i>&nbsp;                break;</b>
+<i>72</i>&nbsp;            case WEST:
+<b class="nc"><i>73</i>&nbsp;                newX = x - 1;</b>
+<b class="nc"><i>74</i>&nbsp;                newY = y;</b>
+<b class="nc"><i>75</i>&nbsp;                break;</b>
+<i>76</i>&nbsp;            case EAST:
+<b class="nc"><i>77</i>&nbsp;                newX = x + 1;</b>
+<b class="nc"><i>78</i>&nbsp;                newY = y;</b>
+<i>79</i>&nbsp;                break;
+<i>80</i>&nbsp;        }
+<i>81</i>&nbsp;
+<b class="nc"><i>82</i>&nbsp;        place(newX, newY, face);</b>
+<b class="nc"><i>83</i>&nbsp;    }</b>
+<i>84</i>&nbsp;
+<i>85</i>&nbsp;    public void left() throws RobotNotPlacedException {
+<b class="nc"><i>86</i>&nbsp;        assertIsPlaced();</b>
+<i>87</i>&nbsp;
+<b class="nc"><i>88</i>&nbsp;        switch (face) {</b>
+<i>89</i>&nbsp;            case NORTH:
+<b class="nc"><i>90</i>&nbsp;                face = Face.WEST;</b>
+<b class="nc"><i>91</i>&nbsp;                break;</b>
+<i>92</i>&nbsp;            case SOUTH:
+<b class="nc"><i>93</i>&nbsp;                face = Face.EAST;</b>
+<b class="nc"><i>94</i>&nbsp;                break;</b>
+<i>95</i>&nbsp;            case WEST:
+<b class="nc"><i>96</i>&nbsp;                face = Face.SOUTH;</b>
+<b class="nc"><i>97</i>&nbsp;                break;</b>
+<i>98</i>&nbsp;            case EAST:
+<b class="nc"><i>99</i>&nbsp;                face = Face.NORTH;</b>
+<i>100</i>&nbsp;                break;
+<i>101</i>&nbsp;        }
+<b class="nc"><i>102</i>&nbsp;    }</b>
+<i>103</i>&nbsp;    public void right() throws RobotNotPlacedException {
+<b class="nc"><i>104</i>&nbsp;        assertIsPlaced();</b>
+<i>105</i>&nbsp;
+<b class="nc"><i>106</i>&nbsp;        switch (face) {</b>
+<i>107</i>&nbsp;            case NORTH:
+<b class="nc"><i>108</i>&nbsp;                face = Face.EAST;</b>
+<b class="nc"><i>109</i>&nbsp;                break;</b>
+<i>110</i>&nbsp;            case SOUTH:
+<b class="nc"><i>111</i>&nbsp;                face = Face.WEST;</b>
+<b class="nc"><i>112</i>&nbsp;                break;</b>
+<i>113</i>&nbsp;            case WEST:
+<b class="nc"><i>114</i>&nbsp;                face = Face.NORTH;</b>
+<b class="nc"><i>115</i>&nbsp;                break;</b>
+<i>116</i>&nbsp;            case EAST:
+<b class="nc"><i>117</i>&nbsp;                face = Face.SOUTH;</b>
+<i>118</i>&nbsp;                break;
+<i>119</i>&nbsp;        }
+<b class="nc"><i>120</i>&nbsp;    }</b>
+<i>121</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2018-11-18 12:18</div>
+</div>
+</body>
+</html>

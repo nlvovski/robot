@@ -1,0 +1,148 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: CommandHelper</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.anz.robot</a> ]
+</div>
+
+<h1>Coverage Summary for Class: CommandHelper (com.anz.robot)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">CommandHelper</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    80%
+  </span>
+  <span class="absValue">
+    (4/ 5)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    32.3%
+  </span>
+  <span class="absValue">
+    (10/ 31)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.anz.robot;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.anz.robot.commands.*;
+<i>4</i>&nbsp;
+<i>5</i>&nbsp;public class CommandHelper {
+<i>6</i>&nbsp;
+<i>7</i>&nbsp;    MyRobot robot;
+<i>8</i>&nbsp;    Command command;
+<i>9</i>&nbsp;    private static final String helpCommands = &quot;Acceptable (case insensitive) commands:\n&quot; +
+<i>10</i>&nbsp;            &quot;MOVE\n&quot; +
+<i>11</i>&nbsp;            &quot;LEFT\n&quot; +
+<i>12</i>&nbsp;            &quot;RIGHT\n&quot; +
+<i>13</i>&nbsp;            &quot;PLACE &lt;X&gt; &lt;Y&gt; &lt;NORTH|SOUTH|EAST|WEST&gt;\n&quot;;
+<i>14</i>&nbsp;
+<b class="fc"><i>15</i>&nbsp;    public CommandHelper(MyRobot robot) {</b>
+<b class="fc"><i>16</i>&nbsp;        this.robot = robot;</b>
+<b class="fc"><i>17</i>&nbsp;    }</b>
+<i>18</i>&nbsp;
+<i>19</i>&nbsp;    public void parseCommand(String[] cmd) throws UnsupportedCommandException, RobotNotPlacedException, RobotOutOfBoundariesException {
+<b class="fc"><i>20</i>&nbsp;        if (cmd[0].toLowerCase().startsWith(&quot;place&quot;)) {</b>
+<b class="fc"><i>21</i>&nbsp;            processPlaceCommand(cmd);</b>
+<i>22</i>&nbsp;        }
+<i>23</i>&nbsp;        else {
+<b class="nc"><i>24</i>&nbsp;            processSubsequentCommands(cmd);</b>
+<i>25</i>&nbsp;        }
+<b class="nc"><i>26</i>&nbsp;    }</b>
+<i>27</i>&nbsp;
+<i>28</i>&nbsp;    private void processPlaceCommand(String[] cmd) throws UnsupportedCommandException, RobotNotPlacedException, RobotOutOfBoundariesException {
+<b class="fc"><i>29</i>&nbsp;        assertArguments(cmd, 4);</b>
+<b class="fc"><i>30</i>&nbsp;        command = new PlaceCommand(cmd);</b>
+<b class="fc"><i>31</i>&nbsp;        command.execute(robot);</b>
+<b class="nc"><i>32</i>&nbsp;    }</b>
+<i>33</i>&nbsp;
+<i>34</i>&nbsp;    private void processSubsequentCommands(String[] cmd) throws UnsupportedCommandException, RobotNotPlacedException, RobotOutOfBoundariesException {
+<b class="nc"><i>35</i>&nbsp;        switch (cmd[0].toLowerCase()) {</b>
+<i>36</i>&nbsp;            case &quot;move&quot;:
+<b class="nc"><i>37</i>&nbsp;                assertArguments(cmd, 1);</b>
+<b class="nc"><i>38</i>&nbsp;                command = new MoveCommand();</b>
+<b class="nc"><i>39</i>&nbsp;                command.execute(robot);</b>
+<b class="nc"><i>40</i>&nbsp;                break;</b>
+<i>41</i>&nbsp;            case &quot;left&quot;:
+<b class="nc"><i>42</i>&nbsp;                assertArguments(cmd, 1);</b>
+<b class="nc"><i>43</i>&nbsp;                command = new LeftCommand();</b>
+<b class="nc"><i>44</i>&nbsp;                command.execute(robot);</b>
+<b class="nc"><i>45</i>&nbsp;                break;</b>
+<i>46</i>&nbsp;            case &quot;right&quot;:
+<b class="nc"><i>47</i>&nbsp;                assertArguments(cmd, 1);</b>
+<b class="nc"><i>48</i>&nbsp;                command = new RightCommand();</b>
+<b class="nc"><i>49</i>&nbsp;                command.execute(robot);</b>
+<b class="nc"><i>50</i>&nbsp;                break;</b>
+<i>51</i>&nbsp;            case &quot;report&quot;:
+<b class="nc"><i>52</i>&nbsp;                assertArguments(cmd, 1);</b>
+<b class="nc"><i>53</i>&nbsp;                command = new ReportCommand();</b>
+<b class="nc"><i>54</i>&nbsp;                command.execute(robot);</b>
+<i>55</i>&nbsp;                break;
+<i>56</i>&nbsp;
+<i>57</i>&nbsp;        }
+<b class="nc"><i>58</i>&nbsp;    }</b>
+<i>59</i>&nbsp;
+<i>60</i>&nbsp;    private void assertArguments(String[] cmd, int length) throws UnsupportedCommandException {
+<b class="fc"><i>61</i>&nbsp;        if (cmd.length != length) {</b>
+<b class="nc"><i>62</i>&nbsp;            throw new UnsupportedCommandException(&quot;One of commands is not supported&quot;);</b>
+<i>63</i>&nbsp;        }
+<b class="fc"><i>64</i>&nbsp;    }</b>
+<i>65</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2018-11-18 12:18</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: RightCommand</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.anz.robot.commands</a> ]
+</div>
+
+<h1>Coverage Summary for Class: RightCommand (com.anz.robot.commands)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">RightCommand</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 4)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.anz.robot.commands;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.anz.robot.MyRobot;
+<i>4</i>&nbsp;import com.anz.robot.RobotNotPlacedException;
+<i>5</i>&nbsp;import com.anz.robot.RobotOutOfBoundariesException;
+<i>6</i>&nbsp;
+<b class="nc"><i>7</i>&nbsp;public class RightCommand implements Command {</b>
+<i>8</i>&nbsp;    @Override
+<i>9</i>&nbsp;    public void execute(MyRobot robot) throws RobotOutOfBoundariesException, RobotNotPlacedException {
+<b class="nc"><i>10</i>&nbsp;        if(!robot.isOnTheTable())</b>
+<b class="nc"><i>11</i>&nbsp;            throw new RobotOutOfBoundariesException(&quot;Robot must not fall from the table&quot;);</b>
+<b class="nc"><i>12</i>&nbsp;        robot.right();</b>
+<i>13</i>&nbsp;
+<i>14</i>&nbsp;    }
+<i>15</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2018-11-18 12:18</div>
+</div>
+</body>
+</html>
