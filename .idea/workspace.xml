@@ -45,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyRobotTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyRobotTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/anz/robot/MyRobotTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="216">
+              <caret line="122" column="27" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,23 +57,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatcherAssert.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/org/hamcrest/MatcherAssert.java">
+      <file leaf-file-name="RobotRunner.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/RobotRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="225">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RobotRunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/RobotRunner.java">
+      <file leaf-file-name="MethodInterceptorFilter.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-all/1.9.5/b8086d4e4daa361fc746abea62f77a2ae55d3ed9/mockito-all-1.9.5-sources.jar!/org/mockito/internal/creation/MethodInterceptorFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding>
-                <element signature="e#573#574#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="185">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -128,8 +125,8 @@
       <file leaf-file-name="CommandInvokerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/anz/robot/CommandInvokerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+            <state relative-caret-position="500">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -478,8 +475,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/commands/MoveCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/CommandInvoker.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/anz/robot/CommandInvokerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/RobotRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/anz/robot/MyRobotTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/RobotRunner.java" />
       </list>
     </option>
   </component>
@@ -644,6 +641,15 @@
             <path>
               <item name="robot" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Gradle: org.hamcrest:hamcrest-core:1.3" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
@@ -760,6 +766,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="CommandInvokerTest.shouldProcessIncludedCommands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="robot_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anz.robot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.anz.robot" />
+      <option name="MAIN_CLASS_NAME" value="com.anz.robot.CommandInvokerTest" />
+      <option name="METHOD_NAME" value="shouldProcessIncludedCommands" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="MyRobotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="robot_test" />
       <extension name="coverage">
@@ -819,29 +848,6 @@
       <option name="PACKAGE_NAME" value="com.anz.robot" />
       <option name="MAIN_CLASS_NAME" value="com.anz.robot.MyRobotTest" />
       <option name="METHOD_NAME" value="example2Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MyRobotTest.shouldProduceRobotOutOfBoundariesExceptionOnLeft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="robot_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.anz.robot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.anz.robot" />
-      <option name="MAIN_CLASS_NAME" value="com.anz.robot.MyRobotTest" />
-      <option name="METHOD_NAME" value="shouldProduceRobotOutOfBoundariesExceptionOnLeft" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -915,19 +921,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in robot_test" />
-      <item itemvalue="JUnit.MyRobotTest.shouldProduceRobotOutOfBoundariesExceptionOnLeft" />
       <item itemvalue="JUnit.MyRobotTest.shouldProduceRobotOutOfBoundariesExceptionOnRight" />
       <item itemvalue="JUnit.MyRobotTest.example1Test" />
       <item itemvalue="JUnit.MyRobotTest.example2Test" />
       <item itemvalue="JUnit.MyRobotTest" />
+      <item itemvalue="JUnit.CommandInvokerTest.shouldProcessIncludedCommands" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MyRobotTest" />
-        <item itemvalue="JUnit.MyRobotTest.example2Test" />
         <item itemvalue="JUnit.MyRobotTest.example1Test" />
+        <item itemvalue="JUnit.CommandInvokerTest.shouldProcessIncludedCommands" />
+        <item itemvalue="JUnit.MyRobotTest.example2Test" />
         <item itemvalue="JUnit.MyRobotTest.shouldProduceRobotOutOfBoundariesExceptionOnRight" />
-        <item itemvalue="JUnit.MyRobotTest.shouldProduceRobotOutOfBoundariesExceptionOnLeft" />
       </list>
     </recent_temporary>
   </component>
@@ -945,21 +951,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyRobotTest_example1Test - 2018.11.19 at 12h 18m 14s.xml">
-      <configuration name="MyRobotTest.example1Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyRobotTest_example1Test - 2018.11.19 at 12h 23m 23s.xml">
-      <configuration name="MyRobotTest.example1Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyRobotTest_example1Test - 2018.11.19 at 12h 28m 59s.xml">
-      <configuration name="MyRobotTest.example1Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyRobotTest_example1Test - 2018.11.19 at 12h 29m 30s.xml">
-      <configuration name="MyRobotTest.example1Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyRobotTest_example1Test - 2018.11.19 at 12h 31m 43s.xml">
-      <configuration name="MyRobotTest.example1Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyRobotTest_example1Test - 2018.11.19 at 12h 35m 12s.xml">
       <configuration name="MyRobotTest.example1Test" configurationId="JUnit" />
     </history-entry>
@@ -975,9 +966,25 @@
     <history-entry file="MyRobotTest - 2018.11.19 at 12h 39m 47s.xml">
       <configuration name="MyRobotTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CommandInvokerTest_shouldProcessIncludedCommands - 2018.11.19 at 13h 23m 01s.xml">
+      <configuration name="CommandInvokerTest.shouldProcessIncludedCommands" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandInvokerTest_shouldProcessIncludedCommands - 2018.11.19 at 13h 26m 38s.xml">
+      <configuration name="CommandInvokerTest.shouldProcessIncludedCommands" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRobotTest_example1Test - 2018.11.19 at 13h 27m 53s.xml">
+      <configuration name="MyRobotTest.example1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRobotTest_example1Test - 2018.11.19 at 13h 28m 48s.xml">
+      <configuration name="MyRobotTest.example1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRobotTest_example1Test - 2018.11.19 at 13h 29m 00s.xml">
+      <configuration name="MyRobotTest.example1Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -987,10 +994,10 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.43253967" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.24722221" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35978836" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.35978836" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21111111" />
@@ -1018,12 +1025,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/anz/robot/CommandInvokerTest.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/anz/robot/CommandInvokerTest.java</url>
           <line>38</line>
           <properties />
           <option name="timeStamp" value="8" />
@@ -1032,10 +1033,10 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/anz/robot/MyRobotTest.java</url>
           <line>80</line>
           <properties />
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1072,9 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1113,13 +1111,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="66" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-all/1.9.5/b8086d4e4daa361fc746abea62f77a2ae55d3ed9/mockito-all-1.9.5-sources.jar!/org/mockito/internal/creation/MethodInterceptorFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
@@ -1223,6 +1214,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-all/1.9.5/b8086d4e4daa361fc746abea62f77a2ae55d3ed9/mockito-all-1.9.5-sources.jar!/org/mockito/internal/creation/MethodInterceptorFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/CommandInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -1237,8 +1235,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/anz/robot/CommandInvokerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+        <state relative-caret-position="500">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anz/robot/MyRobotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="122" column="27" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1247,21 +1265,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/RobotRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anz/robot/MyRobotTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>

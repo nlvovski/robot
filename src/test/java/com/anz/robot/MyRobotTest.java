@@ -77,7 +77,7 @@ public class MyRobotTest {
         ps = new PrintStream(baos, true, "UTF-8");
         runner = new RobotRunner(is, ps, invoker, robot);
         runner.run();
-        String data = runner.getRobot().report(); //new String(baos.toByteArray(), StandardCharsets.UTF_8);
+        String data = robot.report(); //new String(baos.toByteArray(), StandardCharsets.UTF_8);
         assertThat(data.trim(), is(output));
     }
 
@@ -97,7 +97,7 @@ public class MyRobotTest {
         ps = new PrintStream(baos, true, "UTF-8");
         runner = new RobotRunner(is, ps, invoker, robot);
         runner.run();
-        String data = runner.getRobot().report();
+        String data = robot.report();
         assertThat(data.trim(), is(output));
     }
 
@@ -120,7 +120,7 @@ public class MyRobotTest {
         ps = new PrintStream(baos, true, "UTF-8");
         runner = new RobotRunner(is, ps, invoker, robot);
         runner.run();
-        String data = runner.getRobot().report();
+        String data = robot.report();
         assertThat(data.trim(), is(output));
 
     }

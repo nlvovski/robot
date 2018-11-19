@@ -18,9 +18,6 @@ public class RobotRunner {
     private CommandInvoker commandInvoker;
     private  MyRobot robot;
 
-    public MyRobot getRobot() {
-        return robot;
-    }
 
     public RobotRunner(InputStream in, PrintStream out, CommandInvoker commandInvoker, MyRobot robot) {
         this.is = in;
