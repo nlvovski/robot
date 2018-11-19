@@ -75,9 +75,53 @@ public class MyRobotTest {
         is = new ByteArrayInputStream(input.getBytes(StandardCharsets.UTF_8));
         baos = new ByteArrayOutputStream();
         ps = new PrintStream(baos, true, "UTF-8");
-        runner = new RobotRunner(is, ps, invoker);
+        runner = new RobotRunner(is, ps, invoker, robot);
         runner.run();
-        String data = new String(baos.toByteArray(), StandardCharsets.UTF_8);
+        String data = runner.getRobot().report(); //new String(baos.toByteArray(), StandardCharsets.UTF_8);
         assertThat(data.trim(), is(output));
+    }
+
+    @Test
+    public void example2Test() throws Exception {
+        String input = "PLACE 0,0,NORTH\n" +
+                "LEFT\n" +
+                "REPORT\n";
+        String output = "Output: 0,0,WEST";
+        RobotRunner runner;
+        InputStream is;
+        PrintStream ps;
+        ByteArrayOutputStream baos;
+
+        is = new ByteArrayInputStream(input.getBytes(StandardCharsets.UTF_8));
+        baos = new ByteArrayOutputStream();
+        ps = new PrintStream(baos, true, "UTF-8");
+        runner = new RobotRunner(is, ps, invoker, robot);
+        runner.run();
+        String data = runner.getRobot().report();
+        assertThat(data.trim(), is(output));
+    }
+
+    @Test
+    public void example3Test() throws Exception {
+        String input = "PLACE 1,2,EAST\n" +
+                "MOVE\n" +
+                "MOVE\n" +
+                "LEFT\n" +
+                "MOVE\n" +
+                "REPORT\n";
+        String output = "Output: 3,3,NORTH";
+        RobotRunner runner;
+        InputStream is;
+        PrintStream ps;
+        ByteArrayOutputStream baos;
+
+        is = new ByteArrayInputStream(input.getBytes(StandardCharsets.UTF_8));
+        baos = new ByteArrayOutputStream();
+        ps = new PrintStream(baos, true, "UTF-8");
+        runner = new RobotRunner(is, ps, invoker, robot);
+        runner.run();
+        String data = runner.getRobot().report();
+        assertThat(data.trim(), is(output));
+
     }
 }

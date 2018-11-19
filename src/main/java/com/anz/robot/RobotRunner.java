@@ -16,15 +16,21 @@ public class RobotRunner {
     private InputStream is;
     private PrintStream os;
     private CommandInvoker commandInvoker;
+    private  MyRobot robot;
 
-    public RobotRunner(InputStream in, PrintStream out, CommandInvoker commandInvoker) {
+    public MyRobot getRobot() {
+        return robot;
+    }
+
+    public RobotRunner(InputStream in, PrintStream out, CommandInvoker commandInvoker, MyRobot robot) {
         this.is = in;
         this.os = out;
         this.commandInvoker = commandInvoker;
+        this.robot = robot;
     }
 
     public static void main(String[] args) {
-        RobotRunner runner = new RobotRunner(System.in, System.out, new CommandInvoker());
+        RobotRunner runner = new RobotRunner(System.in, System.out, new CommandInvoker(), new MyRobot());
         runner.run();
     }
 
@@ -35,7 +41,7 @@ public class RobotRunner {
                 command = scanner.nextLine();
                 String[] cmdArgs = command.split("\\s|,+");
                 try {
-                    process(cmdArgs);
+                    process(cmdArgs, robot);
                     commandInvoker.executeCommands();
                 } catch (Exception e) {
                     this.os.println(e.getMessage());
@@ -48,19 +54,19 @@ public class RobotRunner {
         }
     }
 
-    private void process(String[] cmd) throws UnsupportedCommandException {
+    private void process(String[] cmd, MyRobot robot) throws UnsupportedCommandException {
         switch (cmd[0].toLowerCase()) {
             case "move":
                 assertArguments(cmd, 1);
-                commandInvoker.collectCommand(new MoveCommand(new MyRobot()));
+                commandInvoker.collectCommand(new MoveCommand(robot));
                 break;
             case "left":
                 assertArguments(cmd, 1);
-                commandInvoker.collectCommand(new LeftCommand(new MyRobot()));
+                commandInvoker.collectCommand(new LeftCommand(robot));
                 break;
             case "right":
                 assertArguments(cmd, 1);
-                commandInvoker.collectCommand(new RightCommand(new MyRobot()));
+                commandInvoker.collectCommand(new RightCommand(robot));
                 break;
             case "place":
                 assertArguments(cmd, 4);
@@ -68,7 +74,7 @@ public class RobotRunner {
                     int x = Integer.parseInt(cmd[1]);
                     int y = Integer.parseInt(cmd[2]);
                     MyRobot.Face face = MyRobot.Face.valueOf(cmd[3].toUpperCase());
-                    commandInvoker.collectCommand(new PlaceCommand(new MyRobot(), x, y, face));
+                    commandInvoker.collectCommand(new PlaceCommand(robot, x, y, face));
                 } catch (NumberFormatException en) {
                     throw new UnsupportedCommandException("One of arguments is not Integer");
                 } catch (Exception e) {
@@ -77,7 +83,7 @@ public class RobotRunner {
                 break;
             case "report":
                 assertArguments(cmd, 1);
-                commandInvoker.collectCommand(new ReportCommand(new MyRobot()));
+                commandInvoker.collectCommand(new ReportCommand(robot));
                 break;
             default:
                 this.os.println("Unknown command");
