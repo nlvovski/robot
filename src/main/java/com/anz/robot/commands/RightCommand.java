@@ -12,9 +12,6 @@ public class RightCommand implements Command {
     }
     @Override
     public void execute() throws RobotOutOfBoundariesException, RobotNotPlacedException {
-        if(!robot.isOnTheTable())
-            throw new RobotOutOfBoundariesException("Robot must not fall from the table");
         robot.right();
-
     }
 }

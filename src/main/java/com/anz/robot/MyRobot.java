@@ -29,10 +29,6 @@ public class MyRobot {
         isPlaced = false;
     }
 
-    public boolean isOnTheTable() {
-        return (x !=null && y != null && face != null) && (x >= MIN_X && x <= MAX_X && y >= MIN_Y && y >= MAX_Y);
-    }
-
     public String report() throws RobotNotPlacedException {
         assertIsPlaced();
         return String.format("Output: "+"%s,%s,%s", x, y, face.toString());

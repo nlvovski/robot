@@ -29,71 +29,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LeftCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/commands/LeftCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReportCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/commands/ReportCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RightCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/commands/RightCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MyRobot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/MyRobot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-791">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="375">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RobotNotPlacedException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/RobotNotPlacedException.java">
+      <file leaf-file-name="MyRobotTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/anz/robot/MyRobotTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MoveCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/commands/MoveCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="559">
+              <caret line="79" column="29" lean-forward="true" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatcherAssert.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/org/hamcrest/MatcherAssert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -101,8 +62,8 @@
       <file leaf-file-name="RobotRunner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/RobotRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="65" column="40" lean-forward="true" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+            <state relative-caret-position="383">
+              <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -110,8 +71,8 @@
       <file leaf-file-name="CommandInvoker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/CommandInvoker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#525#526#0" expanded="true" />
@@ -124,8 +85,11 @@
       <file leaf-file-name="PlaceCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/commands/PlaceCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,7 +97,7 @@
       <file leaf-file-name="CommandInvokerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/anz/robot/CommandInvokerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
+            <state relative-caret-position="287">
               <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -470,18 +434,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/PlaceCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/ReportCommand.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/anz/robot/RobotRunnerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/MyRobot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/commands/LeftCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/commands/Command.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/commands/MoveCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/commands/ReportCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/commands/RightCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/CommandHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/CommandInvoker.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/anz/robot/CommandHelperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/commands/PlaceCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/RobotRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/anz/robot/CommandInvokerTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/MyRobot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/commands/LeftCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/commands/RightCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/commands/ReportCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/commands/MoveCommand.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/anz/robot/MyRobotTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/CommandInvoker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/anz/robot/RobotRunner.java" />
       </list>
     </option>
   </component>
@@ -586,6 +552,78 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.hamcrest:hamcrest-core:1.3" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.hamcrest:hamcrest-core:1.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="hamcrest-core-1.3.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.hamcrest:hamcrest-core:1.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="hamcrest-core-1.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hamcrest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.mockito:mockito-all:1.9.5" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.mockito:mockito-all:1.9.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="mockito-all-1.9.5.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.mockito:mockito-all:1.9.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="mockito-all-1.9.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.mockito:mockito-all:1.9.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="mockito-all-1.9.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="mockito" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.mockito:mockito-all:1.9.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="mockito-all-1.9.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="mockito" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.mockito:mockito-all:1.9.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="mockito-all-1.9.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="mockito" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="creation" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -622,18 +660,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="RobotRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anz.robot.RobotRunner" />
-      <module name="robot_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.anz.robot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyRobotTest.example1Test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -653,7 +680,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CommandInvokerTest.shouldProcessIncludedCommands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyRobotTest.example1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="robot_test" />
       <extension name="coverage">
         <pattern>
@@ -664,8 +691,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.anz.robot" />
-      <option name="MAIN_CLASS_NAME" value="com.anz.robot.CommandInvokerTest" />
-      <option name="METHOD_NAME" value="shouldProcessIncludedCommands" />
+      <option name="MAIN_CLASS_NAME" value="com.anz.robot.MyRobotTest" />
+      <option name="METHOD_NAME" value="example1Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -676,7 +703,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CommandInvokerTest.whenPlaceThenRobotPlaced" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyRobotTest.shouldProduceReport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="robot_test" />
       <extension name="coverage">
         <pattern>
@@ -687,8 +714,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.anz.robot" />
-      <option name="MAIN_CLASS_NAME" value="com.anz.robot.CommandInvokerTest" />
-      <option name="METHOD_NAME" value="whenPlaceThenRobotPlaced" />
+      <option name="MAIN_CLASS_NAME" value="com.anz.robot.MyRobotTest" />
+      <option name="METHOD_NAME" value="shouldProduceReport" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -699,7 +726,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RobotRunnerTest.whenPlacedAndMovedThenMovePosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyRobotTest.shouldProduceRobotOutOfBoundariesExceptionOnLeft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="robot_test" />
       <extension name="coverage">
         <pattern>
@@ -710,8 +737,54 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.anz.robot" />
-      <option name="MAIN_CLASS_NAME" value="com.anz.robot.RobotRunnerTest" />
-      <option name="METHOD_NAME" value="whenPlacedAndMovedThenMovePosition" />
+      <option name="MAIN_CLASS_NAME" value="com.anz.robot.MyRobotTest" />
+      <option name="METHOD_NAME" value="shouldProduceRobotOutOfBoundariesExceptionOnLeft" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MyRobotTest.shouldProduceRobotOutOfBoundariesExceptionOnRight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="robot_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anz.robot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.anz.robot" />
+      <option name="MAIN_CLASS_NAME" value="com.anz.robot.MyRobotTest" />
+      <option name="METHOD_NAME" value="shouldProduceRobotOutOfBoundariesExceptionOnRight" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MyRobotTest.shouldProduceRobotOutOfBoundariesExceptionWhenMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="robot_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anz.robot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.anz.robot" />
+      <option name="MAIN_CLASS_NAME" value="com.anz.robot.MyRobotTest" />
+      <option name="METHOD_NAME" value="shouldProduceRobotOutOfBoundariesExceptionWhenMove" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -761,19 +834,20 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.RobotRunnerTest.whenPlacedAndMovedThenMovePosition" />
-      <item itemvalue="JUnit.CommandInvokerTest.whenPlaceThenRobotPlaced" />
-      <item itemvalue="Application.RobotRunner" />
-      <item itemvalue="JUnit.CommandInvokerTest.shouldProcessIncludedCommands" />
       <item itemvalue="JUnit.All in robot_test" />
+      <item itemvalue="JUnit.MyRobotTest.shouldProduceReport" />
+      <item itemvalue="JUnit.MyRobotTest.shouldProduceRobotOutOfBoundariesExceptionWhenMove" />
+      <item itemvalue="JUnit.MyRobotTest.shouldProduceRobotOutOfBoundariesExceptionOnLeft" />
+      <item itemvalue="JUnit.MyRobotTest.shouldProduceRobotOutOfBoundariesExceptionOnRight" />
+      <item itemvalue="JUnit.MyRobotTest.example1Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CommandInvokerTest.shouldProcessIncludedCommands" />
-        <item itemvalue="JUnit.All in robot_test" />
-        <item itemvalue="Application.RobotRunner" />
-        <item itemvalue="JUnit.CommandInvokerTest.whenPlaceThenRobotPlaced" />
-        <item itemvalue="JUnit.RobotRunnerTest.whenPlacedAndMovedThenMovePosition" />
+        <item itemvalue="JUnit.MyRobotTest.example1Test" />
+        <item itemvalue="JUnit.MyRobotTest.shouldProduceRobotOutOfBoundariesExceptionOnRight" />
+        <item itemvalue="JUnit.MyRobotTest.shouldProduceRobotOutOfBoundariesExceptionOnLeft" />
+        <item itemvalue="JUnit.MyRobotTest.shouldProduceRobotOutOfBoundariesExceptionWhenMove" />
+        <item itemvalue="JUnit.MyRobotTest.shouldProduceReport" />
       </list>
     </recent_temporary>
   </component>
@@ -791,39 +865,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_robot_test - 2018.11.18 at 12h 16m 41s.xml">
-      <configuration name="All in robot_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommandHelperTest_shouldProcessIncludedCommands - 2018.11.18 at 12h 47m 54s.xml">
-      <configuration name="CommandHelperTest.shouldProcessIncludedCommands" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommandHelperTest_shouldProcessIncludedCommands - 2018.11.18 at 12h 49m 19s.xml">
-      <configuration name="CommandHelperTest.shouldProcessIncludedCommands" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommandHelperTest_shouldProcessIncludedCommands - 2018.11.18 at 12h 49m 47s.xml">
-      <configuration name="CommandHelperTest.shouldProcessIncludedCommands" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommandHelperTest_shouldProcessIncludedCommands - 2018.11.18 at 12h 54m 48s.xml">
-      <configuration name="CommandHelperTest.shouldProcessIncludedCommands" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommandHelperTest_shouldProcessIncludedCommands - 2018.11.18 at 12h 55m 27s.xml">
-      <configuration name="CommandHelperTest.shouldProcessIncludedCommands" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommandInvokerTest_shouldProcessIncludedCommands - 2018.11.19 at 09h 22m 18s.xml">
-      <configuration name="CommandInvokerTest.shouldProcessIncludedCommands" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommandInvokerTest_shouldProcessIncludedCommands - 2018.11.19 at 09h 24m 28s.xml">
-      <configuration name="CommandInvokerTest.shouldProcessIncludedCommands" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommandInvokerTest_shouldProcessIncludedCommands - 2018.11.19 at 09h 29m 46s.xml">
-      <configuration name="CommandInvokerTest.shouldProcessIncludedCommands" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CommandInvokerTest_shouldProcessIncludedCommands - 2018.11.19 at 09h 30m 33s.xml">
       <configuration name="CommandInvokerTest.shouldProcessIncludedCommands" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRobotTest_shouldProduceReport - 2018.11.19 at 11h 17m 08s.xml">
+      <configuration name="MyRobotTest.shouldProduceReport" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRobotTest_shouldProduceRobotOutOfBoundariesExceptionWhenMove - 2018.11.19 at 11h 23m 53s.xml">
+      <configuration name="MyRobotTest.shouldProduceRobotOutOfBoundariesExceptionWhenMove" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRobotTest_shouldProduceRobotOutOfBoundariesExceptionOnLeft - 2018.11.19 at 11h 25m 42s.xml">
+      <configuration name="MyRobotTest.shouldProduceRobotOutOfBoundariesExceptionOnLeft" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRobotTest_shouldProduceRobotOutOfBoundariesExceptionOnRight - 2018.11.19 at 11h 26m 36s.xml">
+      <configuration name="MyRobotTest.shouldProduceRobotOutOfBoundariesExceptionOnRight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRobotTest_example1Test - 2018.11.19 at 11h 30m 48s.xml">
+      <configuration name="MyRobotTest.example1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRobotTest_example1Test - 2018.11.19 at 11h 37m 17s.xml">
+      <configuration name="MyRobotTest.example1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRobotTest_example1Test - 2018.11.19 at 11h 37m 55s.xml">
+      <configuration name="MyRobotTest.example1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRobotTest_example1Test - 2018.11.19 at 11h 41m 46s.xml">
+      <configuration name="MyRobotTest.example1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRobotTest_example1Test - 2018.11.19 at 11h 49m 04s.xml">
+      <configuration name="MyRobotTest.example1Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -833,10 +908,10 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.24603175" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3298611" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22089948" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22089948" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21111111" />
@@ -874,8 +949,14 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/anz/robot/MyRobotTest.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -912,13 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anz/robot/MyRobotTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -984,48 +1058,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/RobotNotPlacedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anz/robot/CommandInvokerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/commands/LeftCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/commands/MoveCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/commands/PlaceCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/commands/ReportCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/commands/RightCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
@@ -1034,24 +1106,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/MyRobot.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/commands/ReportCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-791">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        <state relative-caret-position="195">
+          <caret line="18" column="89" selection-start-line="18" selection-start-column="89" selection-end-line="18" selection-end-column="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/RobotNotPlacedException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/commands/MoveCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="13" column="89" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/org/hamcrest/MatcherAssert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/commands/PlaceCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/CommandInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#525#526#0" expanded="true" />
@@ -1060,10 +1152,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anz/robot/CommandInvokerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/MyRobot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state relative-caret-position="375">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anz/robot/MyRobotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="79" column="29" lean-forward="true" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1072,8 +1171,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/anz/robot/RobotRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="65" column="40" lean-forward="true" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+        <state relative-caret-position="383">
+          <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
         </state>
       </provider>
     </entry>
