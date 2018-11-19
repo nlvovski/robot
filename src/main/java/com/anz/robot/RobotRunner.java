@@ -40,12 +40,11 @@ public class RobotRunner {
                 try {
                     process(cmdArgs, robot);
                     commandInvoker.executeCommands();
-                } catch (Exception e) {
+                } catch (UnsupportedCommandException e) {
                     this.os.println(e.getMessage());
                     this.os.println(helpCommands);
                 }
             }
-
         } catch (Exception e) {
             e.printStackTrace(System.err);
         }
@@ -54,19 +53,19 @@ public class RobotRunner {
     private void process(String[] cmd, MyRobot robot) throws UnsupportedCommandException {
         switch (cmd[0].toLowerCase()) {
             case "move":
-                assertArguments(cmd, 1);
+                assertArgumentsNumber(cmd, 1);
                 commandInvoker.collectCommand(new MoveCommand(robot));
                 break;
             case "left":
-                assertArguments(cmd, 1);
+                assertArgumentsNumber(cmd, 1);
                 commandInvoker.collectCommand(new LeftCommand(robot));
                 break;
             case "right":
-                assertArguments(cmd, 1);
+                assertArgumentsNumber(cmd, 1);
                 commandInvoker.collectCommand(new RightCommand(robot));
                 break;
             case "place":
-                assertArguments(cmd, 4);
+                assertArgumentsNumber(cmd, 4);
                 try {
                     int x = Integer.parseInt(cmd[1]);
                     int y = Integer.parseInt(cmd[2]);
@@ -74,12 +73,10 @@ public class RobotRunner {
                     commandInvoker.collectCommand(new PlaceCommand(robot, x, y, face));
                 } catch (NumberFormatException en) {
                     throw new UnsupportedCommandException("One of arguments is not Integer");
-                } catch (Exception e) {
-                    throw new UnsupportedCommandException("One of commands is not supported");
                 }
                 break;
             case "report":
-                assertArguments(cmd, 1);
+                assertArgumentsNumber(cmd, 1);
                 commandInvoker.collectCommand(new ReportCommand(robot));
                 break;
             default:
@@ -87,9 +84,9 @@ public class RobotRunner {
                 break;
         }
     }
-    private void assertArguments(String[] cmd, int length) throws UnsupportedCommandException {
+    private void assertArgumentsNumber(String[] cmd, int length) throws UnsupportedCommandException {
         if (cmd.length != length) {
-            throw new UnsupportedCommandException("One of commands is not supported");
+            throw new UnsupportedCommandException("Wrong number of arguments for the command");
         }
     }
 }
