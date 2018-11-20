@@ -73,6 +73,8 @@ public class RobotRunner {
                     commandInvoker.collectCommand(new PlaceCommand(robot, x, y, face));
                 } catch (NumberFormatException en) {
                     throw new UnsupportedCommandException("One of arguments is not Integer");
+                } catch (Exception e) {
+                    throw new UnsupportedCommandException("One of commands is not supported");
                 }
                 break;
             case "report":
