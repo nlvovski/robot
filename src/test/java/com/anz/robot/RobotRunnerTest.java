@@ -2,9 +2,6 @@ package com.anz.robot;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.Mock;
-import org.mockito.runners.MockitoJUnitRunner;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -13,7 +10,7 @@ import static junit.framework.TestCase.assertTrue;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class CommandInvokerTest {
+public class RobotRunnerTest {
 
 
     MyRobot robot;
